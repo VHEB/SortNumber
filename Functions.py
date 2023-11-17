@@ -1,20 +1,25 @@
+from tkinter import messagebox
+
 def MaiorOrMenor(Sort_value, User_value):
     if User_value > Sort_value:
         result = User_value - Sort_value
-        print("Errou, o número é menor que " , User_value)
-        print("A diferença entre o número Sorteado e o seu Palpite é de: " , result + 3, " mais ou menos ;)")
+        text = " O número é menor que " , User_value , "\n A diferença entre o número Sorteado e o seu Palpite é de: " , result + 3, " \n mais ou menos ;)"
+        messagebox.showinfo("Ajuda", text)
+
     elif User_value < Sort_value:
         result = Sort_value - User_value
-        print("Errou, o número é maior que " , User_value)
-        print("A diferença entre o número Sorteado e o seu Palpite é de: " , result + 3, " mais ou menos ;)")
+        text = " O número é maior que " , User_value , "\n A diferença entre o número Sorteado e o seu Palpite é de: " , result + 3, " \n mais ou menos ;)"
+        messagebox.showinfo("Ajuda", text)
    
 def Quadrado(Sort_value, User_value):
     result = Sort_value * Sort_value
-    print("O número sorteado é a Raiz de " , result)
+    text = "O número sorteado é a Raiz de " , result
+    messagebox.showinfo("Ajuda", text)
+    
 
 def ParOrImpar(Sort_value, User_value):
     if Sort_value % 2 == 0:
-        print("O número Sorteado é par!")
+        messagebox.showinfo("Ajuda","O número sorteado é Par!")
     else:
-        print("O número Sorteado é Impar")
+        messagebox.showinfo("Ajuda","O número sorteado é Impar!")
     
