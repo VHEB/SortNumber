@@ -5,7 +5,7 @@ import random
 
 introText = "Olá, meu nome é Vitor Hugo \n Esse é meu primeiro projeto em Pyhton \n SORT NUMBER \n"
 objText = "Seu objetivo caro jogador é descobrir o Número que foi gerado aleatoriamente. \n Boa Sorte \n"
-
+Try_User = 0
 
 class Screen:
     def __init__(self,master):
@@ -35,18 +35,24 @@ class Screen:
         self.ent = tk.Entry(self.frm1)
         self.ent.pack(side=tk.LEFT)
         self.btn1 = tk.Button(self.frm1, text="Conferir", command=self.Check)
-        self.btn1.pack(pady=20)
+        self.btn1.pack(side=tk.LEFT, padx=10)
+        self.lbl3 = tk.Label(self.frm1, text="Total de Tentativas: ")
+        self.lbl3.pack(side= tk.LEFT)
+        self.lbl4 = tk.Label(self.frm1, text="0 ")
+        self.lbl4.pack(side=tk.LEFT)
 
         
     def Gerar(self):
         global Sort_Num 
         Sort_Num = random.randint(0,100)
+        self.lbl4["text"] = str(0)
         messagebox.showinfo("Alerta","Número gerado entra 0 e 100! \n Boa Sorte")
-        print(Sort_Num)
     
     def Check(self):
-        
-        #Try_User += 1
+
+        val = int(self.lbl4["text"])
+        self.lbl4["text"] = str(val +1)
+
         try:
             User_Num =  int(self.ent.get())
             if User_Num == Sort_Num:
