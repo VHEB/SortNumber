@@ -2,46 +2,61 @@
 
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-guia">Guia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Blibliotecas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+  <a href="#-contato">Contato</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
-<p align="center">
-  <img alt="Advinha o Número" src="https://drive.google.com/file/d/1TysKaVtSiaFlgbpklkpdW6_cTPemNpCg/view?usp=drive_link" width="100%">
-</p>
 
-## 🚀 Tecnologias
+## 🚀 **Guia**
 
-Esse projeto foi desenvolvido com a seguinte tecnologia:
+Este guia descreve como clonar o repositório e iniciar o projeto.
 
-- Python
+## 1 - **Clone do Repositório**
 
-## :book: Bibliotecas
+Primeiro, crie um clone do repositório para sua máquina local:
+
+```bash
+git clone https://github.com/VHEB/SortNumber.git
+```
+
+Navegue até a pasta do projeto.
+
+---
+
+Não será necessário criar um Ambiente Virtual, o `Tkinter` e `Random` são uma biblioteca nativa do `Python`.
+
+---
+
+## 2 - **Inicie o Projeto**
+
+Agora você está pronto para executar o projeto!
+
+Rode o código abaixo no terminal e divirta-se.
+
+```bash
+python interface.py
+```
+
+## :book: **Bibliotecas**
 
 Esse projeto foi desenvolvido com as seguintes bibliotecas:
 
 - Random
 - Tkinter
 
-## 💻 Projeto
+## 💻 **Projeto**
 
-Essa 1ª parte da aplicação gera um número aleatorio entre 1 e 100, e o Usuário tem que descobrir qual é. <br>
-Durante o jogo ele vai ter três possiveis pistas para ajudar o usuário a descobrir com é o número. <br>
+O `Mini Game` gera um `número aleatorio entre 1 e 100`, e o usuário tem que descobrir qual é. <br>
+Durante o jogo vai ocorrer três possiveis pistas para ajudar a descobrir com é o número, caso ele não acerte de primeira. <br>
 
 Esse projeto utilizou de conceitos de Loop, Condicionais de Decisão, Tratamento de Erros, Funções, operações matemáticas e claro muita LOGICA.
 
-Como 2ª parte da aplicação gera uma interface para o mini game, contendo botões para gerar os números e inserção de números para a verificação.
+## :email: **Contato**
 
-## :memo: Licença
+Se precisar de ajuda, sinta-se à vontade para perguntar!
 
-Esse projeto está sob a licença MIT.
-
----
+Você também pode me encontrar no [LinkedIn](https://www.linkedin.com/in/vitor-heb/).

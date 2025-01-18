@@ -30,7 +30,7 @@ class Screen:
         self.btn.pack()
 
         #Inserindo valor
-        self.lbl2 = tk.Label(self.frm1, text="Digite um Número:")
+        self.lbl2 = tk.Label(self.frm1, text="Digite um Número: ")
         self.lbl2.pack(side=tk.LEFT)
         self.ent = tk.Entry(self.frm1)
         self.ent.pack(side=tk.LEFT)
