@@ -5,7 +5,7 @@
   <a href="#-guia">Guia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Blibliotecas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
-  <a href="#-contato">Contato</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-Contato">Contato</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
