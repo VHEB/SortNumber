@@ -3,9 +3,9 @@
 
 <p align="center">
   <a href="#-guia">Guia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-bibliotecas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-book-bibliotecas">Bibliotecas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
-  <a href="#-contato">Contato</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-email-contato">Contato</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
